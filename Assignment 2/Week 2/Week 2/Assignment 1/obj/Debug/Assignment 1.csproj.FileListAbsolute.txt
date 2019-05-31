@@ -1,0 +1,7 @@
+C:\Users\rocke.DESKTOP-MEMRHRR\Desktop\University\IT 1.4\Design patterns\Assignment 2\Week 2\Week 2\Assignment 1\bin\Debug\Assignment 1.exe.config
+C:\Users\rocke.DESKTOP-MEMRHRR\Desktop\University\IT 1.4\Design patterns\Assignment 2\Week 2\Week 2\Assignment 1\bin\Debug\Assignment 1.exe
+C:\Users\rocke.DESKTOP-MEMRHRR\Desktop\University\IT 1.4\Design patterns\Assignment 2\Week 2\Week 2\Assignment 1\bin\Debug\Assignment 1.pdb
+C:\Users\rocke.DESKTOP-MEMRHRR\Desktop\University\IT 1.4\Design patterns\Assignment 2\Week 2\Week 2\Assignment 1\obj\Debug\Assignment 1.csprojAssemblyReference.cache
+C:\Users\rocke.DESKTOP-MEMRHRR\Desktop\University\IT 1.4\Design patterns\Assignment 2\Week 2\Week 2\Assignment 1\obj\Debug\Assignment 1.csproj.CoreCompileInputs.cache
+C:\Users\rocke.DESKTOP-MEMRHRR\Desktop\University\IT 1.4\Design patterns\Assignment 2\Week 2\Week 2\Assignment 1\obj\Debug\Assignment 1.exe
+C:\Users\rocke.DESKTOP-MEMRHRR\Desktop\University\IT 1.4\Design patterns\Assignment 2\Week 2\Week 2\Assignment 1\obj\Debug\Assignment 1.pdb

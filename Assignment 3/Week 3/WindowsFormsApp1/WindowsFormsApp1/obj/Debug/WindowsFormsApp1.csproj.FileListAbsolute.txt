@@ -1,0 +1,11 @@
+C:\Users\rocke.DESKTOP-MEMRHRR\Desktop\University\IT 1.4\Design patterns\Assignment 3\Week 3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\rocke.DESKTOP-MEMRHRR\Desktop\University\IT 1.4\Design patterns\Assignment 3\Week 3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\rocke.DESKTOP-MEMRHRR\Desktop\University\IT 1.4\Design patterns\Assignment 3\Week 3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\rocke.DESKTOP-MEMRHRR\Desktop\University\IT 1.4\Design patterns\Assignment 3\Week 3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\rocke.DESKTOP-MEMRHRR\Desktop\University\IT 1.4\Design patterns\Assignment 3\Week 3\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\rocke.DESKTOP-MEMRHRR\Desktop\University\IT 1.4\Design patterns\Assignment 3\Week 3\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\rocke.DESKTOP-MEMRHRR\Desktop\University\IT 1.4\Design patterns\Assignment 3\Week 3\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\rocke.DESKTOP-MEMRHRR\Desktop\University\IT 1.4\Design patterns\Assignment 3\Week 3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\rocke.DESKTOP-MEMRHRR\Desktop\University\IT 1.4\Design patterns\Assignment 3\Week 3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\rocke.DESKTOP-MEMRHRR\Desktop\University\IT 1.4\Design patterns\Assignment 3\Week 3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\rocke.DESKTOP-MEMRHRR\Desktop\University\IT 1.4\Design patterns\Assignment 3\Week 3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ITrainDisplay.resources
