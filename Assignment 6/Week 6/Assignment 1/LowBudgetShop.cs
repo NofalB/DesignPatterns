@@ -8,6 +8,6 @@ namespace Assignment_1
 {
     class LowBudgetShop
     {
-        refger;
+        
     }
 }
