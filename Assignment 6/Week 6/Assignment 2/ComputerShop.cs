@@ -15,7 +15,5 @@ namespace Assignment_2
             computerFactory.MakeDisplay();
         }
 
-       
-
     }
 }

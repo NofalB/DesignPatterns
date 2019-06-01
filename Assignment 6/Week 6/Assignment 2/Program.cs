@@ -21,9 +21,12 @@ namespace Assignment_2
             Console.WriteLine();
             // create a shop where they assemble cheap computers
             Console.WriteLine("[shop creating cheap computers]");
+
             ComputerFactory expnsiveComputerFactory = new LowBudgetFactory();
             ComputerShop computerShop2 = new ComputerShop();
+
             computerShop2.AssembleMachine(expnsiveComputerFactory);
+
             Console.ReadKey();
         }
     }
