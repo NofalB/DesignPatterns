@@ -6,8 +6,31 @@ using System.Threading.Tasks;
 
 namespace Assignment_1
 {
-    class LowBudgetShop
+    class LowBudgetShop : ComputerShop, IProcessor, IMonitor,IHardDisk
     {
-        refger;
+        public override void AssembleMachine()
+        {
+            PerformOperation();
+            StoreData();
+            Display();
+
+        }
+
+        public void PerformOperation()
+        {
+            Console.WriteLine("performing operation not so quickly");
+
+        }
+
+        public void StoreData()
+        {
+            Console.WriteLine("storing data not so quickly");
+        }
+
+        public void Display()
+        {
+            Console.WriteLine("displaying stuff very poor");
+        }
+
     }
 }
