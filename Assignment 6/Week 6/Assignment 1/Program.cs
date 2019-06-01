@@ -10,15 +10,21 @@ namespace Assignment_1
     {
         static void Main(string[] args)
         {
-            // create a shop where they assemble expensive computers
+            ComputerShop shop = new ComputerShop();
+
             Console.WriteLine("[shop creating expensive computers]");
-            // ... create shop
-            // ... assemble (one) machine
+            shop = shop.CreateShop("High");
+            shop.AssembleMachine();
+           
             Console.WriteLine();
+
             // create a shop where they assemble cheap computers
+
             Console.WriteLine("[shop creating cheap computers]");
             // ... create shop
-            // ... assemble (one) machine
+            shop = shop.CreateShop("Low");
+            shop.AssembleMachine();
+
             Console.ReadKey();
         }
     }

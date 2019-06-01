@@ -4,16 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment_1
+namespace Assignment_2
 {
-    class LowBudgetShop : ComputerShop, IProcessor, IMonitor,IHardDisk
+    class LowBudgetFactory : ComputerFactory,IProcessor,IHardDisk,IMonitor
     {
-        public override void AssembleMachine()
+
+        public override void MakeProcessor()
         {
             PerformOperation();
-            StoreData();
-            Display();
+        }
 
+        public override void MakeHarddisk()
+        {
+            StoreData();
+        }
+
+        public override void MakeDisplay()
+        {
+            Display();
         }
 
         public void PerformOperation()
@@ -31,6 +39,5 @@ namespace Assignment_1
         {
             Console.WriteLine("displaying stuff very poor");
         }
-
     }
 }

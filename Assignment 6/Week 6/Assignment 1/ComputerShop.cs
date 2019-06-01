@@ -6,11 +6,20 @@ using System.Threading.Tasks;
 
 namespace Assignment_1
 {
-    public class ComputerShop
+    public class ComputerShop 
     {
-        public void AssembleMachine()
+        public virtual void AssembleMachine() { return; }
+
+        public ComputerShop CreateShop(string x)
         {
+            if (x == "High")
+                return new HighBudgetShop();
+            else if (x == "Low")
+                return new LowBudgetShop();
+            else
+                return null;
 
         }
+
     }
 }

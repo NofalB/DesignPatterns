@@ -4,18 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment_1
+namespace Assignment_2
 {
-    class HighBudgetShop : ComputerShop ,IProcessor, IHardDisk, IMonitor
+    class HighBudgetFactory :ComputerFactory,IProcessor,IHardDisk,IMonitor
     {
-        public override void AssembleMachine()
-        {
-            PerformOperation();
-            StoreData();
-            Display();
-
-        }
-
+        
+        
         public void PerformOperation()
         {
             Console.WriteLine("performing operation very quickly");
@@ -32,9 +26,19 @@ namespace Assignment_1
             Console.WriteLine("displaying stuff very nice");
         }
 
+        public override void MakeProcessor()
+        {
+            PerformOperation();    
+        }
 
+        public override void MakeHarddisk()
+        {
+            StoreData();
+        }
 
-
-
+        public override void MakeDisplay()
+        {
+            Display();
+        }
     }
 }
