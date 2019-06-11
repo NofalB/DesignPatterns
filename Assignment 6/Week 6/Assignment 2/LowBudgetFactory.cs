@@ -6,38 +6,22 @@ using System.Threading.Tasks;
 
 namespace Assignment_2
 {
-    class LowBudgetFactory : ComputerFactory,IProcessor,IHardDisk,IMonitor
+    class LowBudgetFactory : ComputerFactory
     {
-
-        public override void MakeProcessor()
+        
+        public IMonitor MakeDisplay()
         {
-            PerformOperation();
+            return new CheapMonitor();
         }
 
-        public override void MakeHarddisk()
+        public IHardDisk MakeHarddisk()
         {
-            StoreData();
+            return new CheapHarddisk();
         }
 
-        public override void MakeDisplay()
+        public IProcessor MakeProcessor()
         {
-            Display();
-        }
-
-        public void PerformOperation()
-        {
-            Console.WriteLine("performing operation not so quickly");
-
-        }
-
-        public void StoreData()
-        {
-            Console.WriteLine("storing data not so quickly");
-        }
-
-        public void Display()
-        {
-            Console.WriteLine("displaying stuff very poor");
+            return new CheapProcessor();
         }
     }
 }

@@ -9,11 +9,11 @@ namespace WindowsFormsApp1
     public interface ITrainJourney
     {
         Station CurrentStation { get; }
-        //Station NextStation { get; }
+        void NextStation();
 
         void AddObserver(IObserver observer);
         void RemoveObserver(IObserver observer);
-        void NotifyObserver();
+     //   void NotifyObserver();
         
     }
 }

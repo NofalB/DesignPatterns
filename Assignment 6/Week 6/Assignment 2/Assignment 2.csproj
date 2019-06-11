@@ -43,8 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CheapHarddisk.cs" />
+    <Compile Include="CheapMonitor.cs" />
+    <Compile Include="CheapProcessor.cs" />
     <Compile Include="ComputerFactory.cs" />
     <Compile Include="ComputerShop.cs" />
+    <Compile Include="ExpensiveHarddisk.cs" />
+    <Compile Include="ExpensiveMonitor.cs" />
+    <Compile Include="ExpensiveProcessor.cs" />
     <Compile Include="HighBudgetFactory.cs" />
     <Compile Include="IHardDisk.cs" />
     <Compile Include="IMonitor.cs" />

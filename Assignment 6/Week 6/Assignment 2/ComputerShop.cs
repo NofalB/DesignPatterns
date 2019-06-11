@@ -8,11 +8,25 @@ namespace Assignment_2
 {
     public class ComputerShop 
     {
-        public void AssembleMachine(ComputerFactory computerFactory)
+        //implement this correctly!
+
+        ComputerFactory computerFactory;
+
+        public ComputerShop(ComputerFactory computerFactory)
         {
-            computerFactory.MakeProcessor();
-            computerFactory.MakeHarddisk();
-            computerFactory.MakeDisplay();
+            this.computerFactory = computerFactory;
+        }
+
+
+        public void AssembleMachine()
+        {
+            IMonitor monitor = computerFactory.MakeMonitor();
+            IProcessor processor = MakeProcessor();
+            IHardDisk hardDisk = MakeHardDisk();
+
+            monitor.Display();
+            processor.PerformOperation();
+            hardDisk.StoreData();
         }
 
     }

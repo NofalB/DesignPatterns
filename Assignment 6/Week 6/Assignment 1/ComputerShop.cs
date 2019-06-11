@@ -6,20 +6,26 @@ using System.Threading.Tasks;
 
 namespace Assignment_1
 {
-    public class ComputerShop 
+    public abstract class ComputerShop 
     {
-        public virtual void AssembleMachine() { return; }
+     
 
-        public ComputerShop CreateShop(string x)
+        public abstract IMonitor MakeMonitor();
+        public abstract IProcessor MakeProcessor();
+        public abstract IHardDisk MakeHardDisk();
+
+        public void AssembleMachine()
         {
-            if (x == "High")
-                return new HighBudgetShop();
-            else if (x == "Low")
-                return new LowBudgetShop();
-            else
-                return null;
+            IMonitor monitor = MakeMonitor();
+            IProcessor processor = MakeProcessor();
+            IHardDisk hardDisk = MakeHardDisk();
 
+            monitor.Display();
+            processor.PerformOperation();
+            hardDisk.StoreData();
         }
+
+
 
     }
 }

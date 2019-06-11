@@ -13,10 +13,9 @@ namespace Assignment_2
             // create a shop where they assemble expensive computers
             Console.WriteLine("[shop creating expensive computers]");
 
-            ComputerFactory cheapComputerFactory = new HighBudgetFactory();
-            ComputerShop computerShop1 = new ComputerShop();
+            ComputerFactory computerFactory = new HighBudgetFactory();
 
-            computerShop1.AssembleMachine(cheapComputerFactory);
+            
 
             Console.WriteLine();
             // create a shop where they assemble cheap computers

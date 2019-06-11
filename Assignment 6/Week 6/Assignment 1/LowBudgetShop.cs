@@ -6,31 +6,25 @@ using System.Threading.Tasks;
 
 namespace Assignment_1
 {
-    class LowBudgetShop : ComputerShop, IProcessor, IMonitor,IHardDisk
+    class LowBudgetShop : ComputerShop
     {
-        public override void AssembleMachine()
-        {
-            PerformOperation();
-            StoreData();
-            Display();
+        
 
+        public override IMonitor MakeMonitor()
+        {
+            return new CheapMonitor(); 
         }
 
-        public void PerformOperation()
+        public override IProcessor MakeProcessor()
         {
-            Console.WriteLine("performing operation not so quickly");
-
+            return new CheapProcessor();
         }
 
-        public void StoreData()
+        public override IHardDisk MakeHardDisk()
         {
-            Console.WriteLine("storing data not so quickly");
+            return new CheapHarddisk();
         }
 
-        public void Display()
-        {
-            Console.WriteLine("displaying stuff very poor");
-        }
-
+        
     }
 }
