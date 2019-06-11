@@ -10,7 +10,7 @@ namespace WindowsFormsApp1
     {
         //void CurrentStation();
         //void NextStation();
-        Station getNextStation();
+        void NextStation();
         Station getCurrentStation();
 
 

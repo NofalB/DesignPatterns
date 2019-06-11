@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Assignment_2
 {
-    interface ComputerFactory 
+    class ExpensiveMonitor:IMonitor
     {
-        IProcessor MakeProcessor();
-        IHardDisk MakeHarddisk();
-        IMonitor MakeDisplay();
-        
+        public void Display()
+        {
+            Console.WriteLine("displaying stuff very nice");
+        }
     }
 }

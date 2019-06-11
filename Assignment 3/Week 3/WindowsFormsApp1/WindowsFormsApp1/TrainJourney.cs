@@ -29,7 +29,7 @@ namespace WindowsFormsApp1
         {
             Station nextStation = stationList.ElementAt(++index);
 
-            NotifyObserver();
+            NotifyObservers();
 
         }
 
@@ -55,7 +55,8 @@ namespace WindowsFormsApp1
         {
             observerList.Remove(observer);
         }
-        public void NotifyObserver()
+
+        private void NotifyObservers()
         {
             foreach (IObserver observers in observerList)
             {

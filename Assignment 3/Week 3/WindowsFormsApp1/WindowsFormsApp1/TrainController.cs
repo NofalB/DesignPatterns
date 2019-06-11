@@ -15,9 +15,9 @@ namespace WindowsFormsApp1
             this.journey = journey;
         }
 
-        public Station getNextStation()
+        public void NextStation()
         {
-           return journey.NextStation;
+           journey.NextStation();
         }
 
         public Station getCurrentStation()

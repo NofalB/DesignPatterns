@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Assignment_2
 {
-    interface ComputerFactory 
+    class CheapHarddisk:IHardDisk
     {
-        IProcessor MakeProcessor();
-        IHardDisk MakeHarddisk();
-        IMonitor MakeDisplay();
-        
+        public void StoreData()
+        {
+            Console.WriteLine("storing data not so quickly");
+        }
     }
 }
